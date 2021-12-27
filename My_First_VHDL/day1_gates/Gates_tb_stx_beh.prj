@@ -1,0 +1,5 @@
+vhdl isim_temp "xor_gate.vhd"
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "Gate_St.vhd"
+vhdl isim_temp "Gates_tb.vhd"

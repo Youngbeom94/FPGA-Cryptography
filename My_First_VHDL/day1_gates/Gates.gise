@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Gates.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gate_St.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Gate_St.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Gate_St.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Gate_St_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gate_St_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gates_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Gates_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Gates_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Gates_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="and_gate.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="and_gate.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="and_gate.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="and_gate.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="and_gate.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="and_gate.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="and_gate.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="and_gate.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="and_gate_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="and_gate_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="or_gate.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="or_gate.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="or_gate.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="xor_gate.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="xor_gate.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="xor_gate.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1640586407" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1640586407">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587408" xil_pn:in_ck="-121226201378493459" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1640587408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_St.vhd"/>
+      <outfile xil_pn:name="Gates_tb.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="or_gate.vhd"/>
+      <outfile xil_pn:name="xor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587267" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2446521716031225409" xil_pn:start_ts="1640587267">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587267" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4751312031793000115" xil_pn:start_ts="1640587267">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640586407" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8217869358604091939" xil_pn:start_ts="1640586407">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587413" xil_pn:in_ck="-121226201378493459" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1640587413">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Gate_St.vhd"/>
+      <outfile xil_pn:name="Gates_tb.vhd"/>
+      <outfile xil_pn:name="and_gate.vhd"/>
+      <outfile xil_pn:name="or_gate.vhd"/>
+      <outfile xil_pn:name="xor_gate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587414" xil_pn:in_ck="-121226201378493459" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8999168286985273433" xil_pn:start_ts="1640587413">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Gates_tb_beh.prj"/>
+      <outfile xil_pn:name="Gates_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1640587414" xil_pn:in_ck="-2188334105628754738" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6528313376172463206" xil_pn:start_ts="1640587414">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Gates_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1640578662" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1640578662">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

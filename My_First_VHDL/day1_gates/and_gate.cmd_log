@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/working/Gates/and_gate.xst" -ofn "/home/ise/working/Gates/and_gate.syr" 

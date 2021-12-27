@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/working/Gates/Gates_tb_isim_beh.exe -prj /home/ise/working/Gates/Gates_tb_beh.prj work.Gates_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/working/Gates/xor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/working/Gates/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/working/Gates/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/working/Gates/Gate_St.vhd" into library work
+Parsing VHDL file "/home/ise/working/Gates/Gates_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95300 KB
+Fuse CPU Usage: 350 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity and_gate [and_gate_default]
+Compiling architecture behavioral of entity or_gate [or_gate_default]
+Compiling architecture dataflow of entity xor_gate [xor_gate_default]
+Compiling architecture behavioral of entity Gate_St [gate_st_default]
+Compiling architecture behavior of entity gates_tb
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable /home/ise/working/Gates/Gates_tb_isim_beh.exe
+Fuse Memory Usage: 103996 KB
+Fuse CPU Usage: 370 ms
+GCC CPU Usage: 100 ms

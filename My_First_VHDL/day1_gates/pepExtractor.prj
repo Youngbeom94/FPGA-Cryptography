@@ -1,0 +1,4 @@
+work	"Gate_St.vhd"
+work	"and_gate.vhd"
+work	"or_gate.vhd"
+work	"xor_gate.vhd"

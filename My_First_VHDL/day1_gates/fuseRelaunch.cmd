@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/working/Gates/Gates_tb_isim_beh.exe" -prj "/home/ise/working/Gates/Gates_tb_beh.prj" "work.Gates_tb" 
